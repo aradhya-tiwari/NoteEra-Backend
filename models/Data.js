@@ -9,6 +9,10 @@ const dataSchema = new mongoose.Schema({
     type: Number,
     required: true,
   },
+  subject: {
+    type: String,
+    required: true
+  },
   type: {
     type: String,
     required: true,
